@@ -90,7 +90,7 @@ python trading_algorithm.py --no-plot
 
 ### 1. BTC-USD Closing Price — 2020
 
-![BTC-USD Closing Price](charts/01_price_chart.png)
+![BTC-USD Closing Price](crypto-trading-algo/charts/01_price_chart.png)
 
 Bitcoin started 2020 around $7,000, dipped sharply during the COVID crash in March, consolidated through mid-year, then surged dramatically in Q4 — nearly reaching $30,000 by year-end.
 
@@ -98,7 +98,7 @@ Bitcoin started 2020 around $7,000, dipped sharply during the COVID crash in Mar
 
 ### 2. BTC-USD with Simple Moving Averages
 
-![BTC-USD with SMAs](charts/02_sma_chart.png)
+![BTC-USD with SMAs](crypto-trading-algo/charts/02_sma_chart.png)
 
 The **10-day SMA** (orange) closely tracks the closing price, while the **40-day SMA** (green) smooths out short-term noise and reveals the broader trend. The growing divergence between the two SMAs in Q4 signals strong bullish momentum.
 
@@ -106,7 +106,7 @@ The **10-day SMA** (orange) closely tracks the closing price, while the **40-day
 
 ### 3. Moving Average Crossover — Buy/Sell Signals
 
-![Buy/Sell Signals](charts/03_signals_chart.png)
+![Buy/Sell Signals](crypto-trading-algo/charts/03_signals_chart.png)
 
 🟢 **Green triangles** mark buy orders (short SMA crosses above long SMA).  
 🔴 **Red triangles** mark sell orders (short SMA crosses below long SMA).  
@@ -116,7 +116,7 @@ The algorithm correctly avoided the March crash by issuing a sell signal, and re
 
 ### 4. Backtest: MA Crossover vs Buy & Hold
 
-![Backtest Results](charts/04_backtest_chart.png)
+![Backtest Results](crypto-trading-algo/charts/04_backtest_chart.png)
 
 Both strategies delivered strong returns in 2020 due to Bitcoin's parabolic Q4 run. The **MA Crossover strategy** (orange) slightly outperformed **Buy & Hold** (blue) by sitting out the mid-year correction — ultimately growing a $10,000 starting portfolio to over **$42,000**.
 
